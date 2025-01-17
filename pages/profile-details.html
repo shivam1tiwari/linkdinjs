@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ruge+Boogie&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="../css/profile-details.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <title>User Details</title>
+</head>
+<body>
+  <header class="dashboard__headerbar" >
+     <div class="dashboard__header">
+      <div class="dashboard__header-container">
+        <div class="dashboard__header-left">
+          <div class="header__logo">
+            <img src="../asset/linkdin.png" alt="logo">
+          </div>
+          <div class="header__searchbox">
+            <div class="header__searchbox-search-icon">
+              <span><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+            <div class="header__searchbox-input">
+              <input id="search" type="search"  placeholder="Search" autocomplete="off" >
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__header-right">
+          <div class="header__filter">
+            <div class="header__filter-button">
+              <span><i class="fa fa-bars filter-ham" aria-hidden="true"></i></span>
+            </div>
+            <div class="header__filter-popup popup-active">
+              <div class="filter__sort">
+                <div class="sort-arrow">
+                 <div class="sort__asc direction arrow-color"><span aria-hidden="true">&#8593;</span>
+                </div>
+                <div class="sort__desc direction"><span aria-hidden="true">&#8595;</span>
+                </div>
+              </div>
+              <div class="sort-button">
+                <button>Sort</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </header>
+  <!-- Details   -->
+  <div class="user-data__container">
+    <div class="user-data__profile">
+      <div class="profile-box">
+        <div class="profile__banner">
+          <div class="profile__banner-bg-img">
+            <img class ="bg-img" src="../asset/bg-banner.jpg" alt="">
+          </div>
+          <div class="profile__banner-logo">
+            <img id ="logo-img" src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+          </div>
+        </div>
+        <div class="profile__content-box">
+          <div class="profile__content">
+            <div class="profile__name"  >
+              <h3>${user.username}</h3>
+            </div>
+            <div class="profile__designation profile__content-style">
+              <p>${user.designation}</p>
+            </div>
+            <div class="card__address profile__content-style">
+              <p>${user.address},</p>
+            </div>
+            <div class="card__country profile__content-style">
+              <p>${user.country}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile__activity">
+        <div class="activity__header">
+          <div class="activity__post">
+            <p>Activity</p>
+          </div>
+          <button id="new-post">Create a post</button>
+          <div class="new-post__container active">
+            <div class="new-post__profile-box">
+              <div class="new-post__logo">
+                <img src="" alt="">
+              </div>
+              <div class="new-post__name">
+                <p>Shivam Tiwari</p>
+              </div>
+              <div class="post-close">
+                <span id="post-close__button">&#10060;</span>
+              </div>
+            </div>
+            <div class="new-post__box">
+              <div class="input__title">
+              <input type="text" id="title" name="title" placeholder="Title">
+            </div>
+            <div class="input__body">
+              <textarea id="new-post__input" placeholder="What Do you talk about ?"></textarea>
+            </div>
+            </div>
+            <button id="new-post__submit">post</button>
+          </div>
+        </div>
+        <div class="activity__body">
+          <!-- <div class="post">
+            <div class="post__profile-name">
+              <p>Raju</p>
+            </div>
+            <div class="post__body">
+              <p>Congrate is awesome coment</p>
+            </div>
+          </div> -->
+          <!-- <div class="post">
+            <div class="post__profile-name">
+              <p>Raju</p>
+            </div>
+            <div class="post__body">
+              <p>Congrate is awesome coment</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer__container">
+      <p></p>
+    </div>
+  </footer>
+  <script src="../js/header.js"></script>
+  <script src="../js/profile-details.js"></script>
+</body>
+</html>

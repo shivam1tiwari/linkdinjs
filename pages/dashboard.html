@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ruge+Boogie&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/dashboard.css">
+  <title>Dashboard</title>
+</head>
+<body>
+      <header class="dashboard__headerbar" >
+        <div class="dashboard__header">
+          <div class="dashboard__header-container">
+            <div class="dashboard__header-left">
+              <div class="header__logo">
+                <img src="../asset/linkdin.png" alt="logo">
+              </div>
+              <div class="header__searchbox">
+                <div class="header__searchbox-search-icon">
+                  <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                </div>
+                <div class="header__searchbox-input">
+                  <input id="search" type="search"  placeholder="Search" autocomplete="off" >
+                </div>
+              </div>
+            </div>
+            <div class="dashboard__header-right">
+              <div class="header__filter">
+                <div class="header__filter-button">
+                  <span><i class="fa fa-bars filter-ham" aria-hidden="true"></i></span>
+                </div>
+                <div class="header__filter-popup popup-active">
+                  <div class="filter__sort">
+                    <div class="sort-arrow">
+                     <div class="sort__asc direction "><span aria-hidden="true">&#8593;</span>
+                    </div>
+                    <div class="sort__desc direction "><span aria-hidden="true">&#8595;</span>
+                    </div>
+                  </div>
+                  <div class="sort-button">
+                    <button>Sort</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="card__container">
+        <div class="cards">
+         <!-- <div class="card">
+          <div class="card-box">
+          <div class="card__banner">
+            <div class="card-remove">
+              <span>&#10539;</span>
+            </div>
+            <div class="card__banner-bg-img">
+              <img src="../asset/1702793582836.jpeg" alt="">
+            </div>
+            <div class="card__banner-logo">
+              <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+            </div>
+          </div>
+          <div class="card__content-box">
+            <div class="card__content">
+          <div class="card__name">
+            <h3>Shivam Tiwari</h3>
+          </div>
+          <div class="card__address">
+            <p>Noida sector new delhi Software Engineer</p>
+          </div>
+        </div>
+          <div class="card__button">
+            <button>+ Connect</button>
+          </div>
+        </div>
+        </div>
+         </div>
+          <div class="card">
+            <div class="card-box">
+            <div class="card__banner">
+              <div class="card__banner-bg-img">
+                <img src="../asset/1702793582836.jpeg" alt="">
+              </div>
+              <div class="card__banner-logo">
+                <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+              </div>
+            </div>
+            <div class="card__content-box">
+              <div class="card__content">
+            <div class="card__name">
+              <h3>Shivam Tiwari</h3>
+            </div>
+            <div class="card__address">
+              <p>Noida sector new delhi Software Engineer</p>
+            </div>
+          </div>
+            <div class="card__button">
+              <button>+ Connect</button>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="card">
+            <div class="card-box">
+            <div class="card__banner">
+              <div class="card__banner-bg-img">
+                <img src="../asset/1702793582836.jpeg" alt="">
+              </div>
+              <div class="card__banner-logo">
+                <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+              </div>
+            </div>
+            <div class="card__content-box">
+              <div class="card__content">
+            <div class="card__name">
+              <h3>Shivam Tiwari</h3>
+            </div>
+            <div class="card__address">
+              <p>Noida sector new delhi Software Engineer</p>
+            </div>
+          </div>
+            <div class="card__button">
+              <button>+ Connect</button>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="card">
+            <div class="card-box">
+            <div class="card__banner">
+              <div class="card__banner-bg-img">
+                <img src="../asset/1702793582836.jpeg" alt="">
+              </div>
+              <div class="card__banner-logo">
+                <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+              </div>
+            </div>
+            <div class="card__content-box">
+              <div class="card__content">
+            <div class="card__name">
+              <h3>Shivam Tiwari</h3>
+            </div>
+            <div class="card__address">
+              <p>Noida sector new delhi Software Engineer</p>
+            </div>
+          </div>
+            <div class="card__button">
+              <button>+ Connect</button>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="card">
+            <div class="card-box">
+            <div class="card__banner">
+              <div class="card__banner-bg-img">
+                <img src="../asset/1702793582836.jpeg" alt="">
+              </div>
+              <div class="card__banner-logo">
+                <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+              </div>
+            </div>
+            <div class="card__content-box">
+              <div class="card__content">
+            <div class="card__name">
+              <h3>Shivam Tiwari</h3>
+            </div>
+            <div class="card__address">
+              <p>Noida sector new delhi Software Engineer</p>
+            </div>
+          </div>
+            <div class="card__button">
+              <button>+ Connect</button>
+            </div>
+          </div>
+          </div>
+           </div>
+            <div class="card">
+              <div class="card-box">
+              <div class="card__banner">
+                <div class="card__banner-bg-img">
+                  <img src="../asset/1702793582836.jpeg" alt="">
+                </div>
+                <div class="card__banner-logo">
+                  <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                </div>
+              </div>
+              <div class="card__content-box">
+                <div class="card__content">
+              <div class="card__name">
+                <h3>Shivam Tiwari</h3>
+              </div>
+              <div class="card__address">
+                <p>Noida sector new delhi Software Engineer</p>
+              </div>
+            </div>
+              <div class="card__button">
+                <button>+ Connect</button>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+              <div class="card-box">
+              <div class="card__banner">
+                <div class="card__banner-bg-img">
+                  <img src="../asset/1702793582836.jpeg" alt="">
+                </div>
+                <div class="card__banner-logo">
+                  <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                </div>
+              </div>
+              <div class="card__content-box">
+                <div class="card__content">
+              <div class="card__name">
+                <h3>Shivam Tiwari</h3>
+              </div>
+              <div class="card__address">
+                <p>Noida sector new delhi Software Engineer</p>
+              </div>
+            </div>
+              <div class="card__button">
+                <button>+ Connect</button>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+              <div class="card-box">
+              <div class="card__banner">
+                <div class="card__banner-bg-img">
+                  <img src="../asset/1702793582836.jpeg" alt="">
+                </div>
+                <div class="card__banner-logo">
+                  <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                </div>
+              </div>
+              <div class="card__content-box">
+                <div class="card__content">
+              <div class="card__name">
+                <h3>Shivam Tiwari</h3>
+              </div>
+              <div class="card__address">
+                <p>Noida sector new delhi Software Engineer</p>
+              </div>
+            </div>
+              <div class="card__button">
+                <button>+ Connect</button>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+              <div class="card-box">
+              <div class="card__banner">
+                <div class="card__banner-bg-img">
+                  <img src="../asset/1702793582836.jpeg" alt="">
+                </div>
+                <div class="card__banner-logo">
+                  <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                </div>
+              </div>
+              <div class="card__content-box">
+                <div class="card__content">
+              <div class="card__name">
+                <h3>Shivam Tiwari</h3>
+              </div>
+              <div class="card__address">
+                <p>Noida sector new delhi Software Engineer</p>
+              </div>
+            </div>
+              <div class="card__button">
+                <button>+ Connect</button>
+              </div>
+            </div>
+            </div>
+             </div>
+              <div class="card">
+                <div class="card-box">
+                <div class="card__banner">
+                  <div class="card__banner-bg-img">
+                    <img src="../asset/1702793582836.jpeg" alt="">
+                  </div>
+                  <div class="card__banner-logo">
+                    <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="card__content-box">
+                  <div class="card__content">
+                <div class="card__name">
+                  <h3>Shivam Tiwari</h3>
+                </div>
+                <div class="card__address">
+                  <p>Noida sector new delhi Software Engineer</p>
+                </div>
+              </div>
+                <div class="card__button">
+                  <button>+ Connect</button>
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="card">
+                <div class="card-box">
+                <div class="card__banner">
+                  <div class="card__banner-bg-img">
+                    <img src="../asset/1702793582836.jpeg" alt="">
+                  </div>
+                  <div class="card__banner-logo">
+                    <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="card__content-box">
+                  <div class="card__content">
+                <div class="card__name">
+                  <h3>Shivam Tiwari</h3>
+                </div>
+                <div class="card__address">
+                  <p>Noida sector new delhi Software Engineer</p>
+                </div>
+              </div>
+                <div class="card__button">
+                  <button>+ Connect</button>
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="card">
+                <div class="card-box">
+                <div class="card__banner">
+                  <div class="card__banner-bg-img">
+                    <img src="../asset/1702793582836.jpeg" alt="">
+                  </div>
+                  <div class="card__banner-logo">
+                    <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="card__content-box">
+                  <div class="card__content">
+                <div class="card__name">
+                  <h3>Shivam Tiwari</h3>
+                </div>
+                <div class="card__address">
+                  <p>Noida sector new delhi Software Engineer</p>
+                </div>
+              </div>
+                <div class="card__button">
+                  <button>+ Connect</button>
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="card">
+                <div class="card-box">
+                <div class="card__banner">
+                  <div class="card__banner-bg-img">
+                    <img src="../asset/1702793582836.jpeg" alt="">
+                  </div>
+                  <div class="card__banner-logo">
+                    <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="card__content-box">
+                  <div class="card__content">
+                <div class="card__name">
+                  <h3>Shivam Tiwari</h3>
+                </div>
+                <div class="card__address">
+                  <p>Noida sector new delhi Software Engineer</p>
+                </div>
+              </div>
+                <div class="card__button">
+                  <button>+ Connect</button>
+                </div>
+              </div>
+              </div>
+               </div>
+                <div class="card">
+                  <div class="card-box">
+                  <div class="card__banner">
+                    <div class="card__banner-bg-img">
+                      <img src="../asset/1702793582836.jpeg" alt="">
+                    </div>
+                    <div class="card__banner-logo">
+                      <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="card__content-box">
+                    <div class="card__content">
+                  <div class="card__name">
+                    <h3>Shivam Tiwari</h3>
+                  </div>
+                  <div class="card__address">
+                    <p>Noida sector new delhi Software Engineer</p>
+                  </div>
+                </div>
+                  <div class="card__button">
+                    <button>+ Connect</button>
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div class="card">
+                  <div class="card-box">
+                  <div class="card__banner">
+                    <div class="card__banner-bg-img">
+                      <img src="../asset/1702793582836.jpeg" alt="">
+                    </div>
+                    <div class="card__banner-logo">
+                      <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="card__content-box">
+                    <div class="card__content">
+                  <div class="card__name">
+                    <h3>Shivam Tiwari</h3>
+                  </div>
+                  <div class="card__address">
+                    <p>Noida sector new delhi Software Engineer</p>
+                  </div>
+                </div>
+                  <div class="card__button">
+                    <button>+ Connect</button>
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div class="card">
+                  <div class="card-box">
+                  <div class="card__banner">
+                    <div class="card__banner-bg-img">
+                      <img src="../asset/1702793582836.jpeg" alt="">
+                    </div>
+                    <div class="card__banner-logo">
+                      <img src="../asset/WhatsApp Image 2024-10-08 at 2.11.41 PM.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="card__content-box">
+                    <div class="card__content">
+                  <div class="card__name">
+                    <h3>Shivam Tiwari</h3>
+                  </div>
+                  <div class="card__address">
+                    <p>Noida sector new delhi Software Engineer</p>
+                  </div>
+                </div>
+                  <div class="card__button">
+                    <button>+ Connect</button>
+                  </div>
+                </div>
+                </div>
+                </div> -->
+       </div>
+      </div>
+      <div class="pagination__container">
+        <div class="pagination">
+          <div class="button__pre pagi-button">
+            <button name="pre" ><< Prev</button>
+          </div>
+          <div class="button__next pagi-button">
+            <button name="next" >Next >></button>
+          </div>
+        </div>
+       </div>
+      <script src="../js/dashboard.js"></script>
+</body>
+</html>

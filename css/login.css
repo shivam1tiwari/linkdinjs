@@ -1,0 +1,154 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:white;
+  font-family: "Open Sans", sans-serif;
+}
+
+a{
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* ---------------------------------MAIN CONTAINER----------------------------------------------------- */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+
+  
+}
+
+.form-box{
+  background-color: hsl(0, 0%, 96%);
+  width: 30rem;
+  height: 30rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: .3rem ;
+  box-shadow: 1px 1px 1px 1px rgb(175, 174, 174,.3),0px 1px 1px 1px rgb(156, 155, 155,.3),-1px 1px 1px 1px hsl(0, 0%, 96%),0px -1px 1px 1px rgb(183, 181, 181,.3);
+  
+}
+
+.form-elements{
+  padding: 2rem;
+}
+
+form{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#head{
+  color: #7c95d3;
+}
+
+.username{
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.password{
+  position: relative;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.pass-view{
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+  /* font-size: ; */
+  border: 1px solid transparent;
+}
+
+#username{
+  outline: none;
+  padding: .5rem;
+  border-radius: .2rem;
+  border: 1px solid transparent;
+  font-weight: 600;
+  color: #5f5f61;
+  width: 90%;
+  box-shadow: inset 2px 1px 1px 1px rgb(218, 215, 215),inset 1px 1px 1px hsl(0, 0%, 100%);
+  
+}
+
+#username::placeholder{
+  color: rgb(155, 151, 151);
+  font-weight: 600;
+}
+
+#password{
+  outline: none;
+  padding: .5rem;
+  border-radius: .2rem;
+  border: 1px solid transparent;
+  color: #545455;
+  width: 90%;
+  font-weight: 600;
+  box-shadow: inset 2px 1px 1px 1px rgb(218, 215, 215),inset 1px 1px 1px hsl(0, 0%, 100%);
+}
+
+#password::placeholder{
+  color: rgb(155, 151, 151);
+  font-weight: 600;
+
+}
+
+.button{
+  margin-top: 2.8rem;
+}
+.button p{
+  font-size: 11px;
+  font-weight: 400;
+  color: #6483d1;
+  
+}
+
+.button button{
+  background-color:#32B0D1;
+  width: 11.7rem;
+  height: 2.1rem;
+  /* margin-left: .3rem; */
+  border: 1px solid transparent;
+  padding: .6rem 4rem;
+  border-radius: .4rem;
+  color: rgb(239, 235, 235);
+  font-weight: 600;
+  box-shadow: 0px -2px 1px hsl(0, 0%, 100%),0px 1px 1px 1px rgb(156, 155, 155,.3),0px 1px 1px 1px hsl(0, 1%, 65%),-2px 0px 1px 1px hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+label{
+  color: rgb(237, 47, 47);
+  font-weight: 500;
+  font-size: large;
+  
+}
+
+.errMsg{
+
+  color: rgb(230, 42, 42);
+}
+
+.error{
+  display: flex;
+  justify-content: flex-start;
+  color: red;
+  margin-top: .5rem;
+  margin-right: 10rem;
+  font-size: 10px; 
+}
+
+#span{
+  margin-left:2rem ;
+}
