@@ -11,17 +11,12 @@ This project is a simple LinkedIn-like platform built with JavaScript. The appli
 - **Pagination**: Profiles are paginated, making it easier to browse through large sets of data.
 
 ## Technologies Used
-- JavaScript (Vanilla JS)
+- JavaScript
 - HTML
 - CSS
 
-## Setup and Installation
 
-### Prerequisites
-- A modern web browser (e.g., Chrome, Firefox)
-- Basic understanding of JavaScript and HTML
-
-### Steps to Run the Project Locally
+## Steps to Run the Project Locally
 
 1. **Clone the Repository**
 
